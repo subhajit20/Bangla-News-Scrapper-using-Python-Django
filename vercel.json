@@ -22,7 +22,7 @@
             "dest":"/static/$1"
         },{
             "src":"/(.*)",
-            "dest":"demoproject/wsgi.py"
+            "dest":"BanglaNewscrapper/wsgi.py"
         }
     ]
 }

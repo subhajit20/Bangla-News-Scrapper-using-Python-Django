@@ -1,7 +1,6 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .lib.newscraper import Scrap_Bangla_News
-from django.core.cache import cache
 
 # Create your views here.
 @api_view(['GET'])
